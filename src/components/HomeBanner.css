@@ -1,0 +1,21 @@
+.home-banner {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid #e6ecf0;
+}
+
+.newsfeed-icon {
+    height: 22px;
+    width: 22px;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+.home-banner:hover {
+    cursor: pointer;
+}

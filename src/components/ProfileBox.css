@@ -1,0 +1,28 @@
+.profile-box {
+    margin: 0px auto;
+    margin-left: 70px;
+    margin-top: 25px;
+    display: flex;
+    position: left;
+}
+
+.profile-box-picture {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile-box-username {
+    margin-left: 7px;
+    font-weight: bold;
+}
+
+.profile-box-usertag {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+.profile-box:hover {
+    cursor: pointer;
+}

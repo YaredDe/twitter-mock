@@ -1,0 +1,5 @@
+
+.config-grid {
+    display: grid;
+    grid-template-rows: 490px 80px 1fr;
+}

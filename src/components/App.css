@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 320px 600px 435px ;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Como funciona el height: 100%?? como hago para que tome toda la pantalla de referencia??? */
+/* Con 100vh */
+
+@media screen and (max-width: 1281px) {
+    .grid {
+        grid-template-columns: 188px 600px 492px;
+    }
+}
