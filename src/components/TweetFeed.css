@@ -2,4 +2,63 @@
     width: 600px;
     height: 400px;
     border: 1px solid #e6ecf0;
+    display: grid;
+    grid-template-columns: 50px 70px 100px 100px 1fr;
+    grid-template-rows: 30px 30px 1fr;
+}
+
+.tweet-feed-container-image:hover {
+    cursor: pointer;
+    background-color: #f5f8fa;
+}
+
+.tweet-feed-profile-pic {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tweet-feed-profile-name {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tweet-feed-profile-name:hover {
+    text-decoration: underline;
+}
+
+.tweet-feed-profile-tag {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.tweet-feed-time {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.tweet-feed-text {
+    margin-top: 10px;
+    margin-left: 10px;
+    /* Work on aligning it in a higher position of its grid column */
+    margin-bottom: 5px;
+    font-size: 15px;
+    align-self: baseline; 
+    grid-column: 2 / 6;
+    grid-row: 2;
+}
+
+.tweet-feed-image {
+    grid-column: 2 / 6;
+    grid-row: 3;
+    width: 500px;
+    max-height: 280px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
 }
