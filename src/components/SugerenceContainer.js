@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './SugerenceContainer.css'
 import SearchBar from './SearchBar'
+import SugerenceNews from './SugerenceNews'
 
 // Problem with the CaretPosition, it appears at
 
@@ -12,6 +13,10 @@ class SugerenceContainer extends Component {
                 <SearchBar>
                     
                 </SearchBar>
+
+                <SugerenceNews>
+                    
+                </SugerenceNews>
             </div>
         )
     }
