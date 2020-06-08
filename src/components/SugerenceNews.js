@@ -16,6 +16,31 @@ class SugerenceNews extends React.Component {
                     <div className="sugerence-news-text">Protestas continuan alrededor del mundo</div>
                     <img src={lider} className="sugerence-news-image"></img>
                 </div>
+
+                <div className="sugerence-news-element">
+                    <div className="sugerence-news-info">Mundo &middot; 5 horas</div>
+                    <div className="sugerence-news-text">Protestas continuan alrededor del mundo</div>
+                    <img src={lider} className="sugerence-news-image"></img>
+                </div>
+
+                <div className="sugerence-news-element">
+                    <div className="sugerence-news-info">Mundo &middot; 5 horas</div>
+                    <div className="sugerence-news-text">Protestas continuan alrededor del mundo</div>
+                    <img src={lider} className="sugerence-news-image"></img>
+                </div>
+
+                <div className="sugerence-news-element">
+                    <div className="sugerence-news-info">Mundo &middot; 5 horas</div>
+                    <div className="sugerence-news-text">Protestas continuan alrededor del mundo</div>
+                    <img src={lider} className="sugerence-news-image"></img>
+                </div>
+
+                <div className="sugerence-news-element">
+                    <div className="sugerence-news-info">Mundo &middot; 5 horas</div>
+                    <div className="sugerence-news-text">Protestas continuan alrededor del mundo</div>
+                    <img src={lider} className="sugerence-news-image"></img>
+                </div>
+                
             </div>
         )
     }
