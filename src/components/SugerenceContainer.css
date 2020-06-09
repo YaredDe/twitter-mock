@@ -10,4 +10,11 @@
     /* left: 920px;  */
 }
 
+@media screen and (max-width: 959px) {
+    .sugerence-container {
+        display: none;
+    }
+}
+
+
 /* Borrar los "position: absolute;" crea que el 100% de height no tome toda la pantalla como referencia */

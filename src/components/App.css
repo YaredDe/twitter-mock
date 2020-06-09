@@ -12,11 +12,20 @@ body {
     width: 100vw;
 }
 
+
+
 /* Como funciona el height: 100%?? como hago para que tome toda la pantalla de referencia??? */
 /* Con 100vh */
 
 @media screen and (max-width: 1281px) {
     .grid {
-        grid-template-columns: 188px 600px 492px;
+        grid-template-columns: 1fr 600px 2fr;
+    }
+}
+
+
+@media screen and (max-width: 959px) {
+    .grid {
+        grid-template-columns: 1fr 600px 1fr;
     }
 }

@@ -65,6 +65,7 @@
 
     .options-box-element {
         flex-direction: row-reverse;
-        margin-right: 60px;
+        margin-right: 120px;
     }
+
 }

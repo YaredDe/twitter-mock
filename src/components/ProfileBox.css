@@ -26,3 +26,20 @@
 .profile-box:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 1264px) {
+    .profile-box-username {
+        display: none;
+    }
+
+    .profile-box-usertag {
+        display: none;
+    }
+
+    .profile-box-picture {
+        /* display: flex; */
+        /* margin: 0px auto; */
+        /* flex-direction: row-reverse; */
+        margin-left: 50px;
+    }
+}
