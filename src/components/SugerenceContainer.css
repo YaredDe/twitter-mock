@@ -1,4 +1,5 @@
 .sugerence-container {
+    grid-column: 3;
     display: grid;
     grid-template-rows: 55px 3fr 1fr;
     margin: 0px;

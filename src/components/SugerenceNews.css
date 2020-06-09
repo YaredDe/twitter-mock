@@ -3,6 +3,7 @@
 }
 
 .sugerence-news-container {
+    grid-row: 2;
     margin: 0px auto;
     display: grid;
     grid-template-rows: 50px repeat(5, 1fr) 50px;
@@ -12,6 +13,7 @@
 
     background-color: #f5f8fa;
     border-radius: 20px;
+    
 }
 
 

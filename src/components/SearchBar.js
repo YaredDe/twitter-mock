@@ -11,7 +11,7 @@ class SearchBar extends Component {
             <div className="search-bar-container">
                 <div className="search-bar-container-box">
                     <img src={search} className="search-bar-container-box-icon" />
-                    <input className="search-bar-container-box-input">
+                    <input className="search-bar-container-box-input" value="Buscar en Twitter">
                     </input>
                 </div>
                 

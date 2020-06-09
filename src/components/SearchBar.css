@@ -1,7 +1,9 @@
 .search-bar-container {
+    position: fixed;
+    grid-row: 1;
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 55px;
     margin: 0 auto;
     background-color:  white;
 }
@@ -18,14 +20,24 @@
 }
 
 .search-bar-container-box-icon {
-    width: 18px;
-    height: 18px;
-    padding: 10px;
-    margin-left: 5px;
-    margin-top: 2px;
+    /* Por qué tiene que estar tan grande para ser visible? */
+    /* Por el padding */
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 110;
 }
 
 .search-bar-container-box-input {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    margin-left: 15px;
     background-color: #e6ecf0;
-    border: none
+    border: none;
+    font-size: 15px;
+}
+
+.search-bar-container-box-input[value="Buscar en Twitter"] {
+    color: gray;
 }
