@@ -16,7 +16,7 @@
 
 .options-box-element {
     display: flex;
-    margin-left: 70px;
+    margin-left: 30%;
     /* margin-top: 25px;
     font-size: 19px;
     z-index: 100; */
@@ -65,7 +65,7 @@
 
     .options-box-element {
         flex-direction: row-reverse;
-        margin-right: 120px;
+        margin-right: 40%;
     }
 
 }

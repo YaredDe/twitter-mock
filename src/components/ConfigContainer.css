@@ -4,3 +4,9 @@
     display: grid;
     grid-template-rows: 490px 80px 1fr;
 }
+
+@media screen and (max-width: 455px) {
+    .config-grid {
+        display: none;
+    }
+}

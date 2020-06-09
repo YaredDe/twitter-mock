@@ -19,13 +19,19 @@ body {
 
 @media screen and (max-width: 1281px) {
     .grid {
-        grid-template-columns: 1fr 600px 2fr;
+        grid-template-columns: 200px 600px 2fr;
     }
 }
 
 
 @media screen and (max-width: 959px) {
     .grid {
-        grid-template-columns: 1fr 600px 1fr;
+        grid-template-columns: 200px 600px 1fr;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .grid {
+        grid-template-columns: 200px 1fr;
     }
 }
