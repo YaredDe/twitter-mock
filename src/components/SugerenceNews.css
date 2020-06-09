@@ -40,7 +40,12 @@
     min-height: 50px;
     display: grid;
     grid-template-columns: 1fr 110px;
-    grid-template-rows: 20px 1fr;
+    grid-template-rows: 20px 1fr 1fr;
+}
+
+.sugerence-news-element:hover {
+    cursor: pointer;
+    background-color: #edf0f2;
 }
 
 .sugerence-news-info {
@@ -54,7 +59,7 @@
 
 .sugerence-news-text {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 2 / 4;
     margin-top: 10px;
     margin-left: 20px;
     font-weight: bold;
@@ -63,6 +68,42 @@
 .sugerence-news-image {
     width: 70px;
     height: 70px;
-    margin-top: 5px;
+    margin-top: 10px;
     border-radius: 10px;
+}
+
+.sugerence-news-hashtag {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.sugerence-news-hashtag-info {
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+.sugerence-news-more {
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.sugerence-news-more:hover {
+    cursor: pointer;
+    background-color: #edf0f2;
+}
+
+.sugerence-new-more-text {
+    color: #1dbbf2;
+    margin-top: 20px;
+    margin-left: 20px;
 }
