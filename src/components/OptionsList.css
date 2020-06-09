@@ -69,3 +69,10 @@
     }
 
 }
+
+@media screen and (max-width: 795px) {
+    .options-box-element {
+        margin-right: 75%;
+        margin-left: 0;
+    }
+}
